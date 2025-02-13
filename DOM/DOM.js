@@ -1,7 +1,6 @@
-// document.addEventListener("DOMContentLoaded", function() {
     let p = document.getElementById("text");
     let text = p.innerHTML;
-
+    
     // Thay thế dấu câu
     text = text.replace(/,/g, "🤔").replace(/\./g, "😲");
 
@@ -26,4 +25,3 @@
     fbLink.innerText = "facebook";
     fbLink.style.marginLeft = "10px";
     p.insertAdjacentElement("afterend", fbLink);
-// });
